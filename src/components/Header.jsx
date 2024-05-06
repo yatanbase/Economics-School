@@ -38,12 +38,12 @@ const Header = () => {
         <div className="headerContainer width95 maxWidth flex alignCenter justifyCenter flexColumn" style={{ height: "20rem" }}>
           <div className="nav flex alignCenter spaceBtw width100">
             <div className="logo flex alignCenter justifyCenter gap1" >
-              <img src={logo} alt="" style={{height:'10rem', width:'15rem',filter: 'drop-shadow(0px 0px 3px white)'}} />
+              {/* <img src={logo} alt="" style={{height:'10rem', width:'15rem',filter: 'drop-shadow(0px 0px 3px white)'}} />
               <h1 style={{margin:'-25px'}}>
                 
                 <br />
                PSE
-              </h1>
+              </h1> */}
             </div>
             <div className="logo2">
               <img src={logo2} alt="" />
