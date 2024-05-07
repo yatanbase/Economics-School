@@ -1,5 +1,5 @@
 import React from 'react'
-import Director from '../asset/founding_director.jpeg'
+import Director from '../asset/director.jpeg'
 
 function Page9() {
   return (
@@ -21,23 +21,20 @@ function Page9() {
         </ul>
       </div> */}
       <div style={{ backgroundColor:'#f0f0f0', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.4)'}} className="col-md-9 p-4 mx-auto text-center ">
-        <img style={{ width: '200px', height: '250px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.4)' }} src={Director} alt="Your Image" className="img-fluid" />
+        <img style={{ width: '225px', height: '250px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.4)' }} src={Director} alt="Your Image" className="img-fluid" />
         
-              <h2 style={{ position: 'relative', top: '-5px', transform: 'translateY(50%)' }} className="text-left">Iftekhar Ahmed</h2>
+              <h2 style={{ position: 'relative', top: '-5px', transform: 'translateY(50%)' }} className="text-left">Prof. (Dr.) Sankar Kumar Bhaumik </h2>
               <hr/>
-              <h4 style={{ position: 'relative', top: '-3px', transform: 'translateY(-50%)',fontWeight: 'normal' }}>Message from Founder Director</h4>
+              <h4 style={{ position: 'relative', top: '-3px', transform: 'translateY(-50%)',fontWeight: 'normal' }}>About The Director</h4>
               <p style={{textAlign:'left'}} >
-        Mass Communication is an essential component of human society. It is effective when delivered in a suitable form. This can be done by a well-educated, groomed, and skilled media professional having a creative and critical bent of mind. A person desirous to work in the competitive and growing field of mass communication or media industry should have these abilities and skills to make an impact.
+             <span style={{fontWeight:'bold'}}> Prof. (Dr.) Sankar Kumar Bhaumik </span>is the Director of Patliputra School of Economics. He has vast experience of teaching and research spanning over four decades. Prior to joining the Patliputra School of Economics, he served the Departments of Economics of Calcutta University (22 years), Vidyasagar University (9 years) and Central University of South Bihar (3 and half years). He became Professor & Head of Economics Department of Calcutta University, and Professor & Head of Economics Department and Dean of Social Sciences at the Central University of South Bihar. He also served as Director of the Institute of Development Studies in Jaipur. His fields of specialization are econometrics, economics of agriculture, Indian economic development, and research methodology. Besides teaching these papers to the post-graduate and PhD students, he has done extensive research in the areas of agrarian relations, agricultural development, rural credit, and globalization and employment. His publications include Principles of Econometrics: A Modern Approach Using EViews (Oxford University Press, 2015), Reforming Indian Agriculture: Towards Employment Generation and Poverty Reduction (Sage Publications, 2008), Rural Rate of Interest for Institutional Credit in India (NABARD, 2000) and Tenancy Relations and Agrarian Development: A Study of West Bengal (Sage Publications, 1993). He has to his credit 35 research papers published in refereed journals / edited books. He has so far completed 5 research projects, and supervised 14 PhD theses (all awarded) and 11 MPhil dissertations (all awarded). As per the Google Scholar, he has 302 citations (with h-index 9 and i10-index 9) till date.
       </p>
-      <p style={{textAlign:'left'}} >
-        Research is another significant area of mass communication that has the potential to create new knowledge. Media research is in high demand in the industry, academics, and society for various purposes. Hence systematic learning of the art and craft of media profession and research technique results in the growth of the profession and the individuals.
-      </p>
-      <p style={{textAlign:'left'}} >
-        School of Journalism & Mass Communication (SJMC) has been set up by the Government of Bihar in the historic city of Patna situated at the bank of majestic Ganges with the objective to impart quality media education and facilitate research program for the youth, media professional, academia, and contribute to the progress of society through its programs and extension works. This school envisions to nurture the learners' minds with media skills, critical thinking, creativity, and research and innovation abilities of global standard that mass communication professionals and researchers are required to have to promote information and knowledge-based society for human progress.
-      </p>
-      <p style={{textAlign:'left'}} >
-        The SJMC has a group of qualified and accomplished faculty members with state-of-the-art equipment and facility. The courses have been meticulously designed to groom interested and eligible raw hands into competent media professionals and researchers by providing a suitable learning environment. The successful students and researchers after finishing their programs will be able to get a suitable employment in the media industry, NGOs, govt. offices, and various national and international organizations. Enterprising persons on completion of the course can start her/his independent venture as a media entrepreneur or a freelancer. Besides this, there are many persons who learn the art and craft of media to pursue their media hobby.
-      </p>
+      <br></br>
+      <h4  style={{fontWeight:'bold',textAlign:'left'}}>Email </h4>
+      <p style={{textAlign:'left'}}>director.pse.aku@gmail.com<br></br>
+sk.bhaumik@gov.in</p>
+
+     
         
       </div>
     </div>

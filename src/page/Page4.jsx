@@ -1,8 +1,5 @@
 import React from 'react'
-import Sanjeev from '../asset/SANJEEVkr.png';
-import Tushar from '../asset/TUSHAR.png';
-import Arjun from '../asset/ARJUNTHAKUR.png';
-import Amish from '../asset/AMISHANAND.png';
+
 import { NavLink } from 'react-router-dom';
 function Page4() {
   return (
@@ -32,33 +29,27 @@ function Page4() {
     </div>
     <div className="row justify-content-center">
       <div className="col-md-3 text-center">
-        <img src={Sanjeev} alt="Staff 1" className="img-fluid rounded border p-3" />
-      <p> MR. SANJEEV KUMAR<br></br>
-TECHNICAL ASSISTANT<br></br>
-sanjeevspy007@gmail.com<br></br>
-9939019792</p>
+        <img src='' alt="Staff 1" className="img-fluid rounded border p-3" />
+      <p> Neha Kumari<br></br>
+      Accounts ClerkT<br></br>
+      9142872940<br></br>
+</p>
       </div>
       <div className="col-md-3 text-center">
-        <img src={Tushar} alt="Staff 2" className="img-fluid rounded border p-3" />
-        <p> MR. TUSHAR HARSH<br></br>
-TECHNICAL ASSISTANT<br></br>
-tusharharsh45@gmail.com<br></br>
-7061488930</p>
+        <img src='' alt="Staff 2" className="img-fluid rounded border p-3" />
+        <p>Ashish Kumar<br></br>
+        Support Staff<br></br>
+        9693831206<br></br>
+</p>
       </div>
       <div className="col-md-3 text-center">
-        <img src={Arjun} alt="Staff 3" className="img-fluid rounded border p-3" />
-        <p> MR. ARJUN THAKUR<br></br>
-ACCOUNT ASSISTANT<br></br>
-a4arjunthakur@gmail.com<br></br>
-6299639899</p>
+        <img src='' alt="Staff 3" className="img-fluid rounded border p-3" />
+        <p> Varun Kumar<br></br>
+        Housekeeping Staff<br></br>
+        9693831206<br></br>
+</p>
       </div>
-      <div className="col-md-3 text-center">
-        <img src={Amish} alt="Staff 4" className="img-fluid rounded border p-3" />
-        <p> MR. AMISH ANAND<br></br>
-ASSISTANT<br></br>
-amysharma23@gmail.com<br></br>
-9122733265</p>
-      </div>
+      
     </div>
       </div>
     </div>

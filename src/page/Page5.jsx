@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 
 import { NavLink } from 'react-router-dom';
-import Manisha from '../asset/DrManishaPrakash.jpeg'
+import Director from '../asset/director.jpeg'
 function Page5() {
 
 
@@ -31,26 +31,13 @@ function Page5() {
         </ul>
       </div> */}
       <div style={{ backgroundColor:'#f0f0f0', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.4)'}} className="col-md-9 p-4 mx-auto text-center ">
-        <img style={{ width: '200px', height: '250px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.4)' }} src={Manisha} alt="Your Image" className="img-fluid" />
+        <img style={{ width: '200px', height: '250px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.4)' }} src={Director} alt="Your Image" className="img-fluid" />
         
-              <h2 style={{ position: 'relative', top: '-5px', transform: 'translateY(50%)' }} className="text-left">Dr. Manisha Prakash</h2>
+              <h2 style={{ position: 'relative', top: '-5px', transform: 'translateY(50%)' }} className="text-left">Prof. (Dr.) Sankar Kumar Bhaumik </h2>
               <hr/>
               <h4 style={{ position: 'relative', top: '-3px', transform: 'translateY(-50%)',fontWeight: 'normal' }}>Asst. Professor</h4>
                <p className="mt-4 mx-auto text-left">
-               <span style={{ fontWeight: 'bold' }}>Dr. Manisha Prakash </span>is Head, Academic of the Aryabhatta Knowledge University and Assistant Professor, School of Journalism and Mass Communication. She also holds the position of the OSD to Hon’ble Vice Chancellor, Aryabhatta Knowledge University.<br></br><br></br>
-
-She has been with the University since 14th August, 2018 and has worked in several roles including the establishment of the School of Journalism and Mass Communication. She also worked as Employability Skill Coordinator of the University under TEQIP project and presently is also working as the NAAC coordinator, PRO and IT Cell Head of the University. She is also the Nodal Officer for Incubation Centre, Samarth and NKN.<br></br><br></br>
-
-She began her career with The Times of India, Patna. She was the founder editor of a popular news website from Bihar and also launched/edited a Hindi news magazine. She was also an empaneled filmmaker with IPRD, Bihar and Bihar State Film Development and Finance Corporation. She has worked as Asst. Professor, Mass Communication at the St Xavier’s College of Management & Technology, Patna and has also been a guest faculty at Patna University, Nalanda Open University, Maulana Mazharul Haque Arabic & Persian University, J. D. Women’s College and Amity University, Patna. She was awarded Care-WFS Media Fellowship, 2008. She has worked as a media consultant for DFID for projects like Bihar Health Sector Reforms and Support programme for Urban Reforms & for INPPC, Rotary International. She was also associated with UNICEF, JANANI and other organizations of repute in various projects. She has also been a Programme Coordinator, INPPC, Rotary International She is also a media entrepreneur, writer and translator. She has been selected by NPTEL as translator for its courses. She has been involved in various academic and media activities. Her articles have been published in national dailies like HT, The Hindu, The Asian Age, Pioneer.  <br></br><br></br>
-
-She is a member, Board of Studies of SJMC and Patna Women’s College for Media studies and is serving as member of various committees of the University and its affiliated institutions. She has organized several training programmes and activities. She has contributed to research on several aspects of media studies and presented paper in a number of seminars, has been a key note speaker at various conferences and resource person for FDPs, training programmes and workshops.<br></br><br></br>
-
-She is a bilingual writer and has published a book titled Do Gaj Doori and a story in the anthology Women’s Wallet. An Encyclopaedia entry titled ‘Women in Indian cinema’ was published in <span style={{ fontStyle: 'italic' }}> The International Encyclopedia of Gender, Media, and Communication, WILEY.</span> <br></br><br></br>
-
-She has an M.Sc. (Mass Communication in Science & Technology) from Lucknow University and Ph.D from Ranchi University titled “Role of Media in Disaster Management: A case study of Bihar floods, 2008”. <br></br><br></br>
-
-
-
+               <span style={{ fontWeight: 'bold' }}>Prof. (Dr.) Sankar Kumar Bhaumik  </span>is the Director of Patliputra School of Economics. He has vast experience of teaching and research spanning over four decades. Prior to joining the Patliputra School of Economics, he served the Departments of Economics of Calcutta University (22 years), Vidyasagar University (9 years) and Central University of South Bihar (3 and half years). He became Professor & Head of Economics Department of Calcutta University, and Professor & Head of Economics Department and Dean of Social Sciences at the Central University of South Bihar. He also served as Director of the Institute of Development Studies in Jaipur. His fields of specialization are econometrics, economics of agriculture, Indian economic development, and research methodology. Besides teaching these papers to the post-graduate and PhD students, he has done extensive research in the areas of agrarian relations, agricultural development, rural credit, and globalization and employment. His publications include Principles of Econometrics: A Modern Approach Using EViews (Oxford University Press, 2015), Reforming Indian Agriculture: Towards Employment Generation and Poverty Reduction (Sage Publications, 2008), Rural Rate of Interest for Institutional Credit in India (NABARD, 2000) and Tenancy Relations and Agrarian Development: A Study of West Bengal (Sage Publications, 1993). He has to his credit 35 research papers published in refereed journals / edited books. He has so far completed 5 research projects, and supervised 14 PhD theses (all awarded) and 11 MPhil dissertations (all awarded). As per the Google Scholar, he has 302 citations (with h-index 9 and i10-index 9) till date.
 
 
                </p>
