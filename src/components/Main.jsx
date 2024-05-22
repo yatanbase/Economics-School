@@ -41,6 +41,7 @@ import Announcement1 from '../News/Announcement1.pdf'
 import Announcement2 from '../News/Announcement2.pdf'
 import Announcement3 from '../News/Announcement3.pdf'
 import Announcement4 from '../News/Announcement4.pdf'
+import MaSyllabus from '../asset/ma_syllabus.pdf'
 
 
 import { useEffect } from 'react';
@@ -162,7 +163,7 @@ const MainContent = () => {
             <div className={`dropdown ${facultyDropdownOpen ? 'show' : ''}`}>
                 <a style={{fontWeight:'bold'}} className="nav-link dropdown-toggle text-reset" id="contact-tab" data-bs-toggle="dropdown" href="#Facilities" role="tab" aria-controls="contact" aria-selected="false" onClick={toggleFacultyDropdown}>Academic Program</a>
                 <ul className="dropdown-menu" aria-labelledby="contact-tab">
-                    <li><a href="/page1" className="dropdown-item">M.A. in Journalism and Mass communication</a></li>
+                    <li><a href={MaSyllabus} className="dropdown-item">M.A. in Journalism and Mass communication</a></li>
                     <li><a href="/page2" className="dropdown-item">Ph.D. in Mass communication</a></li>
                     <li><a href={Certificates} className="dropdown-item" target="_blank">Certificate Courses for Writing in Media</a></li>
                     <li  onClick={togglePgdDropdown}>
@@ -183,6 +184,7 @@ const MainContent = () => {
     <div className={`dropdown ${facultyDropdownOpen ? 'show' : ''}`}>
         <a style={{fontWeight:'bold'}} className="nav-link dropdown-toggle text-reset" id="contact-tab" data-bs-toggle="dropdown" href="#Facilities" role="tab" aria-controls="contact" aria-selected="false" onClick={toggleFacultyDropdown}>People</a>
         <ul className="dropdown-menu" aria-labelledby="contact-tab">
+            <li><NavLink to={"/page23"} className="dropdown-item">Academic Advisory Committee</NavLink></li>
             <li><NavLink to={"/page5"} className="dropdown-item">Faculty In-Charge</NavLink></li>
             <li><NavLink to={"/page4"} className="dropdown-item">Staff</NavLink></li>
             <li><NavLink to='{' className="dropdown-item">Consultant</NavLink></li>
