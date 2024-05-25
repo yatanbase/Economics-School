@@ -42,6 +42,10 @@ import Announcement2 from '../News/Announcement2.pdf'
 import Announcement3 from '../News/Announcement3.pdf'
 import Announcement4 from '../News/Announcement4.pdf'
 import MaSyllabus from '../asset/ma_syllabus.pdf'
+import Ma_ordinance from '../asset/ma_ordinance.pdf'
+import Agri_banner from '../asset/Agriculture_Seminar/agriculture (1).jpg'
+import Data_workshop_banner from '../asset/data_workshop/workshop (2).jpg'
+import Justice_conference_banner from '../asset/justice_conference/conference (1).jpg'
 
 
 import { useEffect } from 'react';
@@ -139,9 +143,9 @@ const MainContent = () => {
         <ul className="dropdown-menu" aria-labelledby="contact-tab">
             <li><NavLink to={"/page3"} className="dropdown-item">About us</NavLink></li>
             <li><NavLink to={"/page11"} className="dropdown-item">Vision & Mission</NavLink></li>
-            <li><NavLink to={"/page7"} className="dropdown-item">Role Of SJMC</NavLink></li>
-            <li><NavLink to={"/page8"} className="dropdown-item">Our Gallery</NavLink></li>
-            <li><NavLink to={"/page9"} className="dropdown-item">Founder Director</NavLink></li>
+            <li><NavLink to={"/page7"} className="dropdown-item">Why PSE?</NavLink></li>
+            {/* <li><NavLink to='' className="dropdown-item">Our Gallery</NavLink></li>
+            <li><NavLink to=''className="dropdown-item">Founder Director</NavLink></li> */}
             <li><NavLink to={"/page10"} className="dropdown-item">Careers</NavLink></li>
             <li><hr className="dropdown-divider" /></li>
         </ul>
@@ -152,9 +156,10 @@ const MainContent = () => {
     <div className={`dropdown ${facultyDropdownOpen ? 'show' : ''}`}>
         <a style={{fontWeight:'bold'}} className="nav-link dropdown-toggle text-reset" id="contact-tab" data-bs-toggle="dropdown" href="#Facilities" role="tab" aria-controls="contact" aria-selected="false" onClick={toggleFacultyDropdown}>Infrastructure</a>
         <ul className="dropdown-menu" aria-labelledby="contact-tab">
-            <li><NavLink to={"/page12"} className="dropdown-item">Studio</NavLink></li>
-            <li><NavLink to={"/page13"} className="dropdown-item">Media Lab</NavLink></li>
-            <li><NavLink to={"/page14"} className="dropdown-item">Library</NavLink></li>
+            <li><NavLink to={"/page13"} className="dropdown-item">Classrooms</NavLink></li>
+            <li><NavLink to={"/page13"} className="dropdown-item">Econometric Lab</NavLink></li>
+            <li><NavLink to={"/page13"} className="dropdown-item">Library</NavLink></li>
+            <li><NavLink to={"/page13"} className="dropdown-item">Data Centre</NavLink></li>
             <li><hr className="dropdown-divider" /></li>
         </ul>
     </div>
@@ -163,7 +168,8 @@ const MainContent = () => {
             <div className={`dropdown ${facultyDropdownOpen ? 'show' : ''}`}>
                 <a style={{fontWeight:'bold'}} className="nav-link dropdown-toggle text-reset" id="contact-tab" data-bs-toggle="dropdown" href="#Facilities" role="tab" aria-controls="contact" aria-selected="false" onClick={toggleFacultyDropdown}>Academic Program</a>
                 <ul className="dropdown-menu" aria-labelledby="contact-tab">
-                    <li><a href={MaSyllabus} className="dropdown-item">M.A. in Journalism and Mass communication</a></li>
+                    <li><a href={MaSyllabus } className="dropdown-item">M.A. in Journalism and Mass communication</a></li>
+                    <li><a href={Ma_ordinance } className="dropdown-item">M.A. Ordinance</a></li>
                     <li><a href="/page2" className="dropdown-item">Ph.D. in Mass communication</a></li>
                     <li><a href={Certificates} className="dropdown-item" target="_blank">Certificate Courses for Writing in Media</a></li>
                     <li  onClick={togglePgdDropdown}>
@@ -185,10 +191,10 @@ const MainContent = () => {
         <a style={{fontWeight:'bold'}} className="nav-link dropdown-toggle text-reset" id="contact-tab" data-bs-toggle="dropdown" href="#Facilities" role="tab" aria-controls="contact" aria-selected="false" onClick={toggleFacultyDropdown}>People</a>
         <ul className="dropdown-menu" aria-labelledby="contact-tab">
             <li><NavLink to={"/page23"} className="dropdown-item">Academic Advisory Committee</NavLink></li>
-            <li><NavLink to={"/page5"} className="dropdown-item">Faculty In-Charge</NavLink></li>
+            {/* <li><NavLink to={"/page5"} className="dropdown-item">Faculty In-Charge</NavLink></li>
             <li><NavLink to={"/page4"} className="dropdown-item">Staff</NavLink></li>
             <li><NavLink to='{' className="dropdown-item">Consultant</NavLink></li>
-           
+            */}
             <li><hr className="dropdown-divider" /></li>
         </ul>
     </div>
@@ -230,12 +236,12 @@ const MainContent = () => {
 <li className="nav-item" role="presentation">
             <div className={`dropdown ${facultyDropdownOpen ? 'show' : ''}`}>
                 <a style={{fontWeight:'bold',color: "inherit"}} className="nav-link dropdown-toggle dropdown-item text-reset text-decoration-none" id="contact-tab" data-bs-toggle="dropdown" href="#Facilities" role="tab" aria-controls="contact" aria-selected="false" onClick={toggleFacultyDropdown}>Contact</a>
-                <ul className="dropdown-menu" aria-labelledby="contact-tab">
+                {/* <ul className="dropdown-menu" aria-labelledby="contact-tab">
                     <li><button className="dropdown-item" style={{ textAlign: 'center', border: 'none', background: 'none', cursor: 'pointer' }} onClick={() => copyToClipboard('0612-2952742')}>Phone : 0612-2952742</button></li>
                     <li><button className="dropdown-item" style={{ textAlign: 'center', border: 'none', background: 'none', cursor: 'pointer' }} onClick={() => copyToClipboard('sjmcpatna@gmail.com')}>Mail : sjmcpatna@gmail.com</button></li>
                     <li><a  style={{ textAlign: 'center', border: 'none', background: 'none', cursor: 'pointer' }} className="dropdown-item" href="https://www.google.com/maps/place/Aryabhatta+Knowledge+University/@25.5923023,85.1323539,17z/data=!4m10!1m2!2m1!1sAryabhatta+Knowledge+University,+Gyan+Parisar,Mithapur,+Patna-800+001+India!3m6!1s0x39ed58702e5ae787:0x6c55883d32ec4db4!8m2!3d25.5923023!4d85.1349288!15sCktBcnlhYmhhdHRhIEtub3dsZWRnZSBVbml2ZXJzaXR5LCBHeWFuIFBhcmlzYXIsTWl0aGFwdXIsIFBhdG5hLTgwMCAwMDEgSW5kaWGSAQp1bml2ZXJzaXR54AEA!16s%2Fm%2F0cpbfy3?entry=ttu" target="_blank">ADDRESS INFO<br />Aryabhatta Knowledge University,<br></br> Gyan Parisar,Mithapur, Patna-800 001 (Bihar) India</a></li>
                     <li><hr className="dropdown-divider" /></li>
-                </ul>
+                </ul> */}
             </div>
         </li>
             </ul>
@@ -253,8 +259,20 @@ const MainContent = () => {
 
             <div>
                 <p style={{ paddingTop: "20px", textAlign:"justify", fontWeight:'bold'}}>
-                School of Journalism and Mass Communication (SJMC) was established by Bihar government vide Cabinet decision 15/ पी 5- 09/ 2016-629 dated April 12, 2017. The then Rajya Sabha MP Shri Pavan K Verma contributed approximately Rs. nine crores from his MPLADs funds to set up the said institute, The DPR for which was prepared by Aryabhatta Knowledge University.The Bihar government has proposed to develop SJMC as the potential Centre of Excellence. SJMC will work with other national as well as international Centres to harmonize its journalism curricula in order to promote quality journalism education in the state Careers in Mass Communication are not only high paying but also bring in a great deal of job satisfaction and expression of creativity. </p>
-                <p style={{ paddingTop: "20px", textAlign:"justify", fontWeight:'bold'}}>
+                The objective of the Patliputra School of Economics (PSE) is to generate, disseminate, and preserve knowledge and to bring this knowledge to solve the world’s great challenges. PSE seeks to provide its students with education and academic training that is as rigorous as practiced in the best institutions in India and abroad. By aiming to match the high standards set by leading educational establishments worldwide, PSE ensures that its graduates are well-equipped to address and tackle complex economic and policy issues.<br></br><br></br>
+
+PSE undertakes and facilitates research and teaching of the highest possible order, ensuring that the academic environment fosters critical thinking, innovation, and excellence. Just as the School of Journalism and Mass Communication (SJMC) focuses on quality journalism education, PSE emphasizes the importance of a robust curriculum tailored to meet the needs of developing societies. This approach enriches the students’ learning experience and prepares them to contribute meaningfully to the fields of economics and policy-making.<br></br><br></br>
+
+Consultancy and capacity development are key components of PSE’s mission. The institution aims to provide expert advice as a think tank at the national and state levels, contributing to informed decision-making processes. By engaging with policymakers, PSE ensures that its research and insights have a tangible impact on economic policies and strategies. This role is crucial, especially in a rapidly changing global economic landscape where informed policy decisions can significantly influence a nation’s development trajectory.<br></br><br></br>
+
+PSE actively seeks collaborations with other academic and research institutions, both domestic and foreign. These partnerships facilitate the exchange of knowledge, foster innovation, and enhance the quality of research. By working with renowned institutions globally, PSE can leverage diverse perspectives and expertise, enriching its academic and research endeavors.<br></br><br></br>
+
+For in-depth and focused research in diverse fields of economics and its allied subjects, PSE aims to gradually develop into a multi-center institution. This expansion allows for specialized research centers dedicated to various economic disciplines, fostering a more comprehensive and nuanced understanding of economic phenomena. Similar to SJMC’s vision of harmonizing its journalism curricula with national and international standards, PSE's multi-center approach ensures that its research remains relevant and impactful.<br></br><br></br>
+
+As PSE grows and evolves, it may proceed towards obtaining university status after establishing multiple centers. This progression would enhance its academic standing and expand its capacity to contribute to the field of economics on a larger scale. By becoming a university, PSE can offer a wider range of programs, attract top-tier faculty, and engage in more extensive research initiatives, ultimately positioning itself as a leading institution in economics and policy studies.<br></br><br></br>
+
+Generating a cadre of trained human resources specialized in understanding and addressing issues related to economics is one of the critical needs of the hour, and educational institutions like PSE have to play a crucial role in this regard. The institute ensures tailored programs to meet the needs of developing societies, distinguishing itself from other institutes of economics training in the state and elsewhere, and giving a unique identity and character to its alumni.<br></br><br></br></p>
+                {/* <p style={{ paddingTop: "20px", textAlign:"justify", fontWeight:'bold'}}>
                 Journalism & Mass Communication has emerged as a major area of interest and has immensely contributed to the development & empowerment of society.
                 </p>
 
@@ -263,7 +281,7 @@ const MainContent = () => {
       <p className="text-justify" style={{ paddingTop: "20px" , textAlign:"justify" , fontWeight:'bold'}}>Generating a cadre of trained human resources specialized in understanding and addressing issues related to mass communication is one of the critical needs of the hour, and educational institutions have to play a crucial role in this regard. The institute would ensure tailored programmes to meet the needs of developing societies. This will make SJMC different from other institutes of Journalism &Mass Communication training in this state and elsewhere. This will also give a different identity and character to our alumni.</p>
       <p style={{ paddingTop: "20px" , textAlign:"justify" , fontWeight:'bold'}}>
                 With this view, the School of Journalism &Mass Communication may come up with courses specifically aimed at teaching and research on Communication & Information system Establishment of this institute was essential because of the current trend of proliferation of media institutions in Bihar without appropriate curricula. Media scholars and professionals have over the years debated the benchmark for journalism curriculum of developing countries since the curricula differ structurally and pedagogically from one another.
-                </p>
+                </p> */}
                 <br></br>
                 {/* <h5>Department Overview</h5>
                 <table className="table table-bordered" style={{border:'2px' , margin:'3px'} }>
@@ -295,7 +313,7 @@ const MainContent = () => {
     <div style={{ width: '100%', height: '550px',marginTop:"10px",   boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.5)",padding:"10px 10px" , backgroundColor:"#F0F0F0",marginBottom:"10px" ,textAlign:'center'}}>
         <h4 className='heading-news'>News and Announcements</h4>
         <br />
-\
+{/* 
 <a href="/News6" className='text-decoration-none' style={{ display: 'block',marginTop:'-30px', marginBottom: '20px' }}>Student Film Recognised.</a>
 
         <a href="/News4" className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Open Mic on "Youth Icon of Bihar" </a>
@@ -308,7 +326,7 @@ const MainContent = () => {
         
         <a href="/News1" className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Street Play and Script Writing Contest </a>
         
-        <a href="/News5" className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Screening of Seven Films </a>
+        <a href="/News5" className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Screening of Seven Films </a> */}
         
 
 
@@ -319,15 +337,15 @@ const MainContent = () => {
             <div style={{ width: '100%', height: '750px',boxShadow:'0 4px 8px rgb(0,0,0,0.5)', padding:"10px 10px"  , backgroundColor:"#F0F0F0" }}>
                 <h4 className='heading-news'>Important Links</h4>
 
-                <a href={Announcement1} target='_blank' className='text-decoration-none' style={{ display: 'block', marginBottom: '20px', marginTop:'25px' }}>Notice About Academic Advisory Committee </a>
-        
+                {/* <a href={Announcement1} target='_blank' className='text-decoration-none' style={{ display: 'block', marginBottom: '20px', marginTop:'25px' }}>Notice About Academic Advisory Committee </a> */}
+{/*         
         <a href={Announcement2} target='_blank' className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Board Of Studies  </a>
         
         <a href={Announcement3} target='_blank' className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Approved Syllabus Of Courses Offered By SJMC  </a>
         
         <a href={Announcement4} target='_blank' className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>MoU between SJMC & BIPARD  </a>
 
-
+ */}
 
 
 
@@ -533,25 +551,25 @@ const MainContent = () => {
 
         <div style={{ width: 'calc(33.33% - 20px)', marginBottom: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
             <NavLink to={"/page20"}>
-                <img src={Film} alt="Gallery Image 2" style={{ width: '100%', height: '300px', objectFit: 'cover', boxShadow: '0 0 25px 2px rgba(0, 0, 0, 0.4)', borderRadius: '20px' }} />
+                <img src={Agri_banner} alt="Gallery Image 2" style={{ width: '100%', height: '300px', objectFit: 'cover', boxShadow: '0 0 25px 2px rgba(0, 0, 0, 0.4)', borderRadius: '20px' }} />
             </NavLink>
-            <h4 style={{ textAlign: 'center' , fontFamily: 'Times New Roman, serif'}}>Film Screening of Student Films (2021-2023)</h4>
+            <h4 style={{ textAlign: 'center' , fontFamily: 'Times New Roman, serif'}}>National Seminar  Agricultural Productivity  in Bihar</h4>
         </div>
 
         <div style={{ width: 'calc(33.33% - 20px)', marginBottom: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
             <NavLink to={"/page21"}>
-                <img src={Refresher} alt="Gallery Image 2" style={{ width: '100%', height: '300px', objectFit: 'cover', boxShadow: '0 0 25px 2px rgba(0, 0, 0, 0.4)', borderRadius: '20px' }} />
+                <img src={Data_workshop_banner} alt="Gallery Image 2" style={{ width: '100%', height: '300px', objectFit: 'cover', boxShadow: '0 0 25px 2px rgba(0, 0, 0, 0.4)', borderRadius: '20px' }} />
             </NavLink>
-            <h4 style={{ textAlign: 'center', fontFamily: 'Times New Roman, serif' }}>Refresher Training Programme for IPRD Officials</h4>
+            <h4 style={{ textAlign: 'center', fontFamily: 'Times New Roman, serif' }}>Workshop on “Data Analysis Using Software Packages for Social Scientists”</h4>
         </div>
 
         <div style={{ width: 'calc(33.33% - 20px)', marginBottom: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',marginTop:'-25px' }}>
             <NavLink to={"/page19"}>
-                <img src={DigitalEd} alt="Gallery Image 2" style={{ width: '100%', height: '300px', objectFit: 'cover', boxShadow: '0 0 25px 2px rgba(0, 0, 0, 0.4)', borderRadius: '20px' }} />
+                <img src={Justice_conference_banner} alt="Gallery Image 2" style={{ width: '100%', height: '300px', objectFit: 'cover', boxShadow: '0 0 25px 2px rgba(0, 0, 0, 0.4)', borderRadius: '20px' }} />
             </NavLink>
-            <h4 style={{ textAlign: 'center', fontFamily: 'Times New Roman, serif' }}>National Workshop on Digital Education</h4>
+            <h4 style={{ textAlign: 'center', fontFamily: 'Times New Roman, serif' }}>International Conference on Development with Justice</h4>
         </div>
-
+{/* 
         <div style={{ width: 'calc(33.33% - 20px)', marginBottom: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',marginTop:'-25px' }}>
             <NavLink to={"/page18"}>
                 <img src={ScriptWritingDay} alt="Gallery Image 2" style={{ width: '100%', height: '300px', objectFit: 'cover', boxShadow: '0 0 25px 2px rgba(0, 0, 0, 0.4)', borderRadius: '20px' }} />
@@ -571,7 +589,7 @@ const MainContent = () => {
         <img src={Students} alt="Gallery Image 2" style={{ width: '100%', height: '300px', objectFit: 'fill', boxShadow: '0 0 25px 2px rgba(0, 0, 0, 0.4)', borderRadius: '20px' }} />
     </NavLink>
     <h4 style={{ textAlign: 'center', fontFamily: 'Times New Roman, serif',position:'relative',bottom:'25px' }}>Student Activities</h4>
-</div>
+</div> */}
 
 
 

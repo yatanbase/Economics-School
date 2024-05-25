@@ -7,13 +7,14 @@ function Page11() {
     <div className="about_vision&mission_content">
       <h2 style={{textAlign: 'left', borderBottom: '1px solid black'}}><a href="#" style={{color: 'black' , textDecoration: 'none'}}>Vision</a></h2>
       <br />
-      <p style={{ fontSize: '20px' }}>To nurture, produce and create innovative young minds of global standards for media education, research, extension and training, using state-of-the-art technology for building a knowledge driven information society, contributing to human development, empowerment and participatory democracy, anchored in pluralism, universal values & ethics and to attain and remain a centre of excellence.</p>
+      <p style={{ fontSize: '20px' }}>The PSE seeks to emerge as an internationally recognized Institution for economic research and studies, attracting the best students and faculties from different parts of the World.
+</p>
       <br/>
       <h2 style={{textAlign: 'left', borderBottom: '1px solid black'}}><a href="#" style={{color: 'black' , textDecoration: 'none'}}>Mision</a></h2>
       <br />
       <div>
-  <p style={{ fontSize: '20px' }}>To establish a state-of-the-art facility for teaching and research on mass communication.</p>
-  <p style={{ fontSize: '20px' }}>To conduct academic courses at Postgraduate and Research levels.</p>
+  <p style={{ fontSize: '20px' }}>The sole mission of the PSE is to advance knowledge and educate students, researchers, planners, and policy-makers in economics and its allied areas that will best serve the nation (India) and the World.</p>
+  {/* <p style={{ fontSize: '20px' }}>To conduct academic courses at Postgraduate and Research levels.</p>
   <p style={{ fontSize: '20px' }}>To provide excellent supervision to scholars to undertake research in journalism & mass communication and allied topics.</p>
   <p style={{ fontSize: '20px' }}>To conduct researches on various aspects of journalism & mass communication.</p>
   <p style={{ fontSize: '20px' }}>To contribute and enrich knowledge on journalism & mass communication.</p>
@@ -24,7 +25,7 @@ function Page11() {
   <p style={{ fontSize: '20px' }}>To provide consultancy services in the field of its expertise to government and other agencies.</p>
   <p style={{ fontSize: '20px' }}>To organize training programmes for professionals, bureaucrats and civil society members on media management and associated aspects.</p>
   <p style={{ fontSize: '20px' }}>To cater to the development of a culture for preservation and conservation of media ethics.</p>
-  <p style={{ fontSize: '20px' }}>To leverage its key resources.</p>
+  <p style={{ fontSize: '20px' }}>To leverage its key resources.</p> */}
 </div>
 
     </div>

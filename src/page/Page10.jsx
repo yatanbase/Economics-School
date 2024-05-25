@@ -8,7 +8,7 @@ function Page10() {
         
 
 
-        <h4> Career at SJMC </h4>
+        <h4> Career at PSE </h4>
         <p>The page you are looking for is not available for now. Please visit again.</p>
         <div class="d-grid gap-2 col-6 mx-auto">
   <a href="/" class="btn btn-primary" role="button">Go to Home</a>

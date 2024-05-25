@@ -1,12 +1,9 @@
 import React, {useEffect} from 'react'
-import Image1 from '../asset/refresher/Refresher (1).jpeg'
-import Image2 from '../asset/refresher/Refresher (2).jpeg'
-import Image3 from '../asset/refresher/Refresher (3).jpeg'
-import Image4 from '../asset/refresher/Refresher (4).jpeg'
-import Image5 from '../asset/refresher/Refresher (5).jpeg'
-import Image6 from '../asset/refresher/Refresher (6).jpeg'
-import Image7 from '../asset/refresher/Refresher (7).jpeg'
-import Image8 from '../asset/refresher/Refresher (8).jpeg'
+import Image1 from '../asset/data_workshop/workshop (1).jpg'
+import Image2 from '../asset/data_workshop/workshop (2).jpg'
+import Image3 from '../asset/data_workshop/workshop (3).jpg'
+import Image4 from '../asset/data_workshop/workshop (4).jpg'
+
 
 function Page21() {
 
@@ -24,7 +21,7 @@ function Page21() {
         <div style={{ backgroundColor: '#f0f0f0', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.4)', marginTop: '100px' }} className="col-md-9 p-4 mx-auto text-center">
           <div className="row justify-content-center">
             <div className="col-md-12 text-center">
-              <h2>Refresher Training Programme For IPRD Officials</h2>
+              <h2>Workshop on “Data Analysis Using Software Packages for Social Scientists”</h2>
             </div>
           </div>
           <div className="row justify-content-around">
@@ -41,20 +38,7 @@ function Page21() {
             <div className="col-md-4 text-center mb-3">
               <img src={Image4} alt="Staff 4" className="img-fluid rounded border p-3" style={{ maxHeight: '300px', maxWidth: '100%' , height: '210px'}} />
             </div>
-            <div className="col-md-4 text-center mb-3">
-              <img src={Image5} alt="Staff 5" className="img-fluid rounded border p-3" style={{ maxHeight: '300px', maxWidth: '100%' , height: '210px'}} />
-            </div>
-            <div className="col-md-4 text-center mb-3">
-              <img src={Image6} alt="Staff 6" className="img-fluid rounded border p-3" style={{ maxHeight: '300px', maxWidth: '100%', height: '210px' }} />
-            </div>
-            <div className="col-md-4 text-center mb-3">
-              <img src={Image8} alt="Staff 6" className="img-fluid rounded border p-3" style={{ maxHeight: '300px', maxWidth: '100%', height: '210px' ,position:'relative', left:'50px'}} />
-            </div>
-            <div className="col-md-4 text-center mb-3">
-              <img src={Image7} alt="Staff 6" className="img-fluid rounded border p-3" style={{ maxHeight: '300px', maxWidth: '100%', height: '210px' ,position:'relative', right:'50px'}} />
-            </div>
-           
-
+            
           </div>
         </div>
       </div>

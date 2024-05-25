@@ -15,8 +15,8 @@ const Footer = () => {
                             <img src={FooterLogo} alt="University Logo" style={{width:'100%', paddingBottom:'10px', position:'relative', right:'80px'}} />
                             <p>Reception: 0000 – 0000 530</p>
                             <p>Admission: 0000 – 0000 / 518 – 0612-2952742</p>
-                            <p>Address:  Aryabhatta Knowledge University Campus, Mithapur, Patna, Bihar (India)</p>
-                            <p>Email: sjmcpatna@gmail.com</p>
+                            <p>Address:  </p>
+                            <p>Email: </p>
                         </div>
                     </div>
 
@@ -50,7 +50,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Third div with map iframe */}
+                    *Third div with map iframe
                     <div className="col-12 col-md-4 col-lg-4">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3598.37951544783!2d85.1323539!3d25.5923023!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58702e5ae787%3A0x6c55883d32ec4db4!2sAryabhatta%20Knowledge%20University!5e0!3m2!1sen!2sin!4v1714559725531!5m2!1sen!2sin"
