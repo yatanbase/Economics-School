@@ -168,9 +168,9 @@ const MainContent = () => {
             <div className={`dropdown ${facultyDropdownOpen ? 'show' : ''}`}>
                 <a style={{fontWeight:'bold'}} className="nav-link dropdown-toggle text-reset" id="contact-tab" data-bs-toggle="dropdown" href="#Facilities" role="tab" aria-controls="contact" aria-selected="false" onClick={toggleFacultyDropdown}>Academic Program</a>
                 <ul className="dropdown-menu" aria-labelledby="contact-tab">
-                    <li><a href={MaSyllabus } className="dropdown-item">M.A. in Journalism and Mass communication</a></li>
-                    <li><a href={Ma_ordinance } className="dropdown-item">M.A. Ordinance</a></li>
-                    <li><a href="/page2" className="dropdown-item">Ph.D. in Mass communication</a></li>
+                    <li><a href={MaSyllabus } className="dropdown-item">M.A. in PSE</a></li>
+                    <li><a href={Ma_ordinance } className="dropdown-item">M.A. Ordinance PSE</a></li>
+                    {/* <li><a href="/page2" className="dropdown-item">Ph.D. in Mass communication</a></li>
                     <li><a href={Certificates} className="dropdown-item" target="_blank">Certificate Courses for Writing in Media</a></li>
                     <li  onClick={togglePgdDropdown}>
                         <a className="dropdown-item dropdown-toggle" style={{ cursor: 'pointer' }} data-bs-toggle="dropdown">PG Courses</a>
@@ -181,7 +181,7 @@ const MainContent = () => {
                             <li><a href={Course2} target='_blank' className="dropdown-item">Science Communication</a></li>
                             <li><a href={Course4} target='_blank' className="dropdown-item">Film Making</a></li>
                         </ul>
-                    </li>
+                    </li> */}
                     <li><hr className="dropdown-divider" /></li>
                 </ul>
             </div>
@@ -313,10 +313,10 @@ Generating a cadre of trained human resources specialized in understanding and a
     <div style={{ width: '100%', height: '550px',marginTop:"10px",   boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.5)",padding:"10px 10px" , backgroundColor:"#F0F0F0",marginBottom:"10px" ,textAlign:'center'}}>
         <h4 className='heading-news'>News and Announcements</h4>
         <br />
-{/* 
-<a href="/News6" className='text-decoration-none' style={{ display: 'block',marginTop:'-30px', marginBottom: '20px' }}>Student Film Recognised.</a>
 
-        <a href="/News4" className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Open Mic on "Youth Icon of Bihar" </a>
+<a href="https://adms.akubihar.ac.in/" className='text-decoration-none' style={{ display: 'block',marginTop:'-20px', marginBottom: '20px' }}><img src={Gif} alt="newicon" height="8" width="27" style={{ marginRight: '10px', position:'relative'}} />Admission Link Open 2024-2025.</a>
+
+        {/* <a href="/News4" className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Open Mic on "Youth Icon of Bihar" </a>
         
         <a href="/News7" className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Discussion on Journalism at PBF  </a>
         
@@ -326,7 +326,7 @@ Generating a cadre of trained human resources specialized in understanding and a
         
         <a href="/News1" className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Street Play and Script Writing Contest </a>
         
-        <a href="/News5" className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Screening of Seven Films </a> */}
+        <a href="/News5" className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Screening of Seven Films </a>  */}
         
 
 
