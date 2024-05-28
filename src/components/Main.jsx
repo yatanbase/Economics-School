@@ -205,8 +205,8 @@ const MainContent = () => {
     <div className={`dropdown ${facultyDropdownOpen ? 'show' : ''}`}>
         <a style={{fontWeight:'bold'}} className="nav-link dropdown-toggle text-reset" id="contact-tab" data-bs-toggle="dropdown" href="#Facilities" role="tab" aria-controls="contact" aria-selected="false" onClick={toggleFacultyDropdown}>Annual Report</a>
         <ul className="dropdown-menu" aria-labelledby="contact-tab">
-        <li><NavLink to={AnnualReport1} target='_blank' className="dropdown-item">Annual Report 2022-23</NavLink></li>
-            <li><NavLink to={AnnualReport2} target='_blank'  className="dropdown-item">Annual Report 2021-22</NavLink></li>
+        {/* <li><NavLink to={AnnualReport1} target='_blank' className="dropdown-item">Annual Report 2022-23</NavLink></li> */}
+            <li><NavLink to={AnnualReport1} target='_blank'  className="dropdown-item">Annual Report 2021-22</NavLink></li>
             <li><hr className="dropdown-divider" /></li>
         </ul>
     </div>
@@ -259,11 +259,12 @@ const MainContent = () => {
 
             <div>
                 <p style={{ paddingTop: "20px", textAlign:"justify", fontWeight:'bold'}}>
-                The objective of the Patliputra School of Economics (PSE) is to generate, disseminate, and preserve knowledge and to bring this knowledge to solve the world’s great challenges. PSE seeks to provide its students with education and academic training that is as rigorous as practiced in the best institutions in India and abroad. By aiming to match the high standards set by leading educational establishments worldwide, PSE ensures that its graduates are well-equipped to address and tackle complex economic and policy issues.<br></br><br></br>
+                Patliputra School of Economics (PSE) was established by Bihar Government vide Cabinet decision 15@ih-09/2016-629 dated April 12, 2017.<br></br><br></br>
+The Centre aims to work with world class leaders, economists and people of calibre from different fields. It would undertake and facilitate academics, consultancy, research and capacity development in Economic and Economic Policy making. It would provide expert advice as a think tank at the National and State level and would establish collaborations with Academic and Research institutions.<br></br><br></br>
+The PSE involvement in academics would be from a perspective of guiding research, M.Phil., PhD and post graduate courses so as to enable its students and scholars to compete nationally and globally in reputation, placement, quality of mind etc. and also provide high quality teaching faculty for the State.<br></br><br></br>
+
 
 PSE undertakes and facilitates research and teaching of the highest possible order, ensuring that the academic environment fosters critical thinking, innovation, and excellence. Just as the School of Journalism and Mass Communication (SJMC) focuses on quality journalism education, PSE emphasizes the importance of a robust curriculum tailored to meet the needs of developing societies. This approach enriches the students’ learning experience and prepares them to contribute meaningfully to the fields of economics and policy-making.<br></br><br></br>
-
-Consultancy and capacity development are key components of PSE’s mission. The institution aims to provide expert advice as a think tank at the national and state levels, contributing to informed decision-making processes. By engaging with policymakers, PSE ensures that its research and insights have a tangible impact on economic policies and strategies. This role is crucial, especially in a rapidly changing global economic landscape where informed policy decisions can significantly influence a nation’s development trajectory.<br></br><br></br>
 
 PSE actively seeks collaborations with other academic and research institutions, both domestic and foreign. These partnerships facilitate the exchange of knowledge, foster innovation, and enhance the quality of research. By working with renowned institutions globally, PSE can leverage diverse perspectives and expertise, enriching its academic and research endeavors.<br></br><br></br>
 
