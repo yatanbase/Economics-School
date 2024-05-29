@@ -1,4 +1,5 @@
 import React from 'react'
+import Neha_Kumari from '../asset/Staff1.jpg'
 
 import { NavLink } from 'react-router-dom';
 function Page4() {
@@ -24,18 +25,32 @@ function Page4() {
         
       <div className="row justify-content-center">
       <div className="col-md-12 text-center">
-        <h2>Our Staff</h2>
+        <h2>PSE Staff</h2>
       </div>
     </div>
     <div className="row justify-content-center">
       <div className="col-md-3 text-center">
-        <img src='' alt="Staff 1" className="img-fluid rounded border p-3" />
-      <p> Neha Kumari<br></br>
-      Accounts ClerkT<br></br>
-      9142872940<br></br>
+        <div className="imgg" style={{width:'500', height:'400', objectFit:'cover',marginBottom:'10px', marginTop:'50px'}} >
+        <img src={Neha_Kumari} alt="Staff 1" className="img-fluid rounded border p-3"  /></div>
+      {/* <p> 
+      <span style={{fontWeight:'bold'}}>Name : Neha Kumari<br></br></span>
+Qualification : B.Com (Accounts Hons.)<br></br>
+Designation : Assistant<br></br>
+Centre : Patliputra School of Economics<br></br>
+Email : nehasinha0326@gmail.com<br></br>
+
+</p> */}
+
+<p>
+<span style={{fontWeight:'bold'}}>Neha Kumari<br></br></span>
+B.Com (Accounts Hons.)<br></br>
+Assistant<br></br>
+Patliputra School of Economics<br></br>
+nehasinha0326@gmail.com<br></br>
 </p>
       </div>
-      <div className="col-md-3 text-center">
+
+      {/* <div className="col-md-3 text-center">
         <img src='' alt="Staff 2" className="img-fluid rounded border p-3" />
         <p>Ashish Kumar<br></br>
         Support Staff<br></br>
@@ -49,7 +64,8 @@ function Page4() {
         9693831206<br></br>
 </p>
       </div>
-      
+       */}
+
     </div>
       </div>
     </div>
