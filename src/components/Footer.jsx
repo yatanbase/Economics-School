@@ -12,11 +12,11 @@ const Footer = () => {
                     {/* First div with logo and contact information */}
                     <div className="col-12 col-md-4 col-lg-4 d-flex">
                         <div>
-                            <img src={FooterLogo} alt="University Logo" style={{width:'100%', paddingBottom:'10px', position:'relative', right:'80px'}} />
-                            <p>Reception: 0000 – 0000 530</p>
-                            <p>Admission: 0000 – 0000 / 518 – 0612-2952742</p>
-                            <p>Address:  </p>
-                            <p>Email: </p>
+                            <img src={FooterLogo} alt="University Logo" style={{width:'100px', paddingBottom:'10px'}} />
+                            <p>Reception:91-612-2952344</p>
+                            <p>Address: 2nd Floor, Centres of Excellence Building, Aryabhatta Knowledge University Campus, Mithapur, Patna– 800001
+ </p>
+                            <p>Email: nehasinha0326@gmail.com</p>
                         </div>
                     </div>
 
@@ -37,20 +37,20 @@ const Footer = () => {
                             <h4>Social Media</h4>
                             <ul>
                                 <li>
-                                    <a href="https://www.facebook.com/people/School-of-Journalism-and-Mass-Communication-Patna/100063903589436/?ref=embed_page">Facebook</a>
+                                    <a href="https://www.facebook.com">Facebook</a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/PatnaSjmc">Twitter</a>
+                                    <a href="https://twitter.com/">Twitter</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.youtube.com/@AryabhattaKnowledgeUniversity">Youtube</a>
+                                    <a href="https://www.youtube.com/">Youtube</a>
                                 </li>
                                 {/* Add more social media links */}
                             </ul>
                         </div>
                     </div>
 
-                    *Third div with map iframe
+                    
                     <div className="col-12 col-md-4 col-lg-4">
                         {/* <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3598.37951544783!2d85.1323539!3d25.5923023!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58702e5ae787%3A0x6c55883d32ec4db4!2sAryabhatta%20Knowledge%20University!5e0!3m2!1sen!2sin!4v1714559725531!5m2!1sen!2sin"
@@ -61,6 +61,16 @@ const Footer = () => {
                             referrerpolicy="no-referrer-when-downgrade"
                             title="Arybhatta Knowledge University - Patna"
                         ></iframe> */}
+                         <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.3793705975636!2d85.13234851007088!3d25.592307115491625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58702e5ae787%3A0x6c55883d32ec4db4!2sAryabhatta%20Knowledge%20University!5e0!3m2!1sen!2sin!4v1716984424125!5m2!1sen!2sin"
+      width="400" 
+      height="300" 
+      style={{ border: 0 }} 
+      allowFullScreen=""
+      loading="lazy" 
+      referrerPolicy="no-referrer-when-downgrade"
+    >
+    </iframe>
                     </div>
                 </div>
             </div>
