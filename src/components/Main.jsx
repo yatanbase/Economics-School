@@ -46,6 +46,7 @@ import Ma_ordinance from '../asset/ma_ordinance.pdf'
 import Agri_banner from '../asset/Agriculture_Seminar/agriculture (1).jpg'
 import Data_workshop_banner from '../asset/data_workshop/workshop (2).jpg'
 import Justice_conference_banner from '../asset/justice_conference/conference (1).jpg'
+import Prospectus from '../asset/Patliputra_prospectus.pdf'
 
 
 import { useEffect } from 'react';
@@ -192,10 +193,10 @@ const MainContent = () => {
         <ul className="dropdown-menu" aria-labelledby="contact-tab">
             <li><NavLink to={"/page23"} className="dropdown-item">Academic Advisory Committee</NavLink></li>
             <li><NavLink to={"/page4"} className="dropdown-item">Staff</NavLink></li>
-            <li><NavLink to={"/page24"} className="dropdown-item">Consultant</NavLink></li>
+         
             <li><NavLink to={"/page5"} className="dropdown-item">Faculty In-Charge</NavLink></li>
             {/*
-            
+               <li><NavLink to={"/page24"} className="dropdown-item">Consultant</NavLink></li>
             <li><NavLink to='{' className="dropdown-item">Consultant</NavLink></li>
             */}
             <li><hr className="dropdown-divider" /></li>
@@ -318,8 +319,13 @@ Generating a cadre of trained human resources specialized in understanding and a
         <h4 className='heading-news'>News and Announcements</h4>
         <br />
 
-<a href="https://adms.akubihar.ac.in/" className='text-decoration-none' style={{ display: 'block',marginTop:'-20px', marginBottom: '20px' }}><img src={Gif} alt="newicon" height="8" width="27" style={{ marginRight: '10px', position:'relative'}} />Admission Link Open 2024-2025.</a>
 
+<div className="news" style={{marginBottom:'35px'}}>
+<a href="https://adms.akubihar.ac.in/" className='text-decoration-none' style={{ display: 'block',marginTop:'-20px', marginBottom: '20px' }}><img src={Gif} alt="newicon" height="8" width="27" style={{ marginRight: '10px', position:'relative'}} />Admission 2024</a>
+</div>
+<div className="news" style={{marginBottom:'35px'}}>
+<a href={Prospectus} className='text-decoration-none' style={{ display: 'block',marginTop:'-20px', marginBottom: '20px' }}><img src={Gif} alt="newicon" height="8" width="27" style={{ marginRight: '10px', position:'relative'}} />PSE Prospectus 2024</a>
+</div>
         {/* <a href="/News4" className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Open Mic on "Youth Icon of Bihar" </a>
         
         <a href="/News7" className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Discussion on Journalism at PBF  </a>

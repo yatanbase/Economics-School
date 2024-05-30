@@ -1,13 +1,11 @@
 import React from 'react'
-import Image1 from '../asset/Consultant_1.jpg'
-import Image2 from '../asset/Consultant_2.jpg'
-import Image3 from '../asset/Consultant_3.jpg'
+
 
 function Page24() {
   return (
     <div>
 
-     <div  className="container">
+     {/* <div  className="container">
   <div className="row justify-content-center align-items-center">
     <div style={{ backgroundColor:'#f0f0f0', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.4)'}} className="col-md-9 p-4 mx-auto text-center ">
       <div className="Consultant" style={{marginBottom:'50px'}}>
@@ -44,7 +42,8 @@ Alumnus of Central University of South Bihar, Devi Ahilya Vishwavidyalaya, Banar
       
     </div>
   </div>
-</div></div>
+</div> */}
+</div>
   )
 }
 
