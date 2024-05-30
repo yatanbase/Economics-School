@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../asset/logo.png";
+import logo from "../asset/Header-logo.png";
 import logo2 from "../asset/aajaditwo.png";
 const Header = () => {
   const headerStyle = {
@@ -38,12 +38,12 @@ const Header = () => {
         <div className="headerContainer width95 maxWidth flex alignCenter justifyCenter flexColumn" style={{ height: "20rem" }}>
           <div className="nav flex alignCenter spaceBtw width100">
             <div className="logo flex alignCenter justifyCenter gap1" >
-              {/* <img src={logo} alt="" style={{height:'10rem', width:'15rem',filter: 'drop-shadow(0px 0px 3px white)'}} />
+              <img src={logo} alt="" style={{height:'6rem', width:'7rem',filter: 'drop-shadow(0px 0px 3px white)'}} />
               <h1 style={{margin:'-25px'}}>
-                
+                पाटलिपुत्र स्कूल ऑफ इकोनोमिक्स
                 <br />
-               PSE
-              </h1> */}
+                Patliputra School of Economics
+              </h1>
             </div>
             <div className="logo2">
               <img src={logo2} alt="" />

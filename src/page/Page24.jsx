@@ -1,50 +1,90 @@
-import React from 'react'
-
+import React, { useState } from 'react';
+import Image1 from '../asset/Media_center (1).jpeg'
+import Image2 from '../asset/Media_center (2).jpeg'
+import Image3 from '../asset/Media_center (3).jpeg'
+import Image4 from '../asset/Media_center (4).jpeg'
+import Image5 from '../asset/Media_center (5).jpeg'
+import Image6 from '../asset/Media_center (6).jpeg'
+import './Page24.css';
 
 function Page24() {
+  const [modalVisible, setModalVisible] = useState(false);
+  const [modalImage, setModalImage] = useState('');
+
+  const handleImageClick = (src) => {
+    setModalImage(src);
+    setModalVisible(true);
+  };
+
+  const closeModal = () => {
+    setModalVisible(false);
+  };
   return (
-    <div>
-
-     {/* <div  className="container">
-  <div className="row justify-content-center align-items-center">
-    <div style={{ backgroundColor:'#f0f0f0', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.4)'}} className="col-md-9 p-4 mx-auto text-center ">
-      <div className="Consultant" style={{marginBottom:'50px'}}>
-      <img style={{ width: '200px', height: '250px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.4)' }} src={Image1} alt="Your Image" className="img-fluid" />
-            <h2 style={{ position: 'relative', top: '-5px', transform: 'translateY(50%)' }} className="text-left">Dr. Snehashish Vardhan</h2>
-            <hr/>
-            <h4 style={{ position: 'relative', top: '-3px', transform: 'translateY(-50%)',fontWeight: 'normal' }}>Consultant (Journalism)</h4>
-             <p className="mt-4 mx-auto text-left">
-             PhD, M.Phil., NET, MA, BA in Journalism and Mass Communication <br></br>
-Has done his PhD. in New Media and Political Communication. He is specialised in Journalism, New Media, Research and Photography having more than two years of teaching experience.<br></br>  
-Alumnus of Central University of South Bihar, Devi Ahilya Vishwavidyalaya, Banaras Hindu University and Patna University.
-
-             </p></div>
-
-             <div className="Consultant" style={{marginBottom:'50px'}}>
-      <img style={{ width: '200px', height: '250px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.4)' }} src={Image2} alt="Your Image" className="img-fluid" />
-            <h2 style={{ position: 'relative', top: '-5px', transform: 'translateY(50%)' }} className="text-left">Dr. Sandeep Kumar Dubey</h2>
-            <hr/>
-            <h4 style={{ position: 'relative', top: '-3px', transform: 'translateY(-50%)',fontWeight: 'normal' }}>Consultant (Film & TV)</h4>
-             <p className="mt-4 mx-auto text-left">
-             Ph.D. in Mass Communication (2023), Mahatma Gandhi Antarrashtriya Hindi Vishwavidyalaya, Wardha, Maharashtra. Earlier was Assistant Professor, Department of Journalism & Mass Communication, Invertis University, Bareilly (Uttar Pradesh). Authored four book chapters, two research papers in UGC Care listed and peer-reviewed journals, One Book Review, book chapters and numerous research articles in peer-reviewed journals and magazines. Over 100 articles and features published in newspapers like Dainik Jagran, Amar Ujala, and Jansandesh Times.
-             </p></div>
-
-
-             <div className="Consultant" style={{marginBottom:'50px'}}>
-      <img style={{ width: '200px', height: '250px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.4)' }} src={Image3} alt="Your Image" className="img-fluid" />
-            <h2 style={{ position: 'relative', top: '-5px', transform: 'translateY(50%)' }} className="text-left">Dr. Sandeep Kumar</h2>
-            <hr/>
-            <h4 style={{ position: 'relative', top: '-3px', transform: 'translateY(-50%)',fontWeight: 'normal' }}>Consultant (Media Research)</h4>
-             <p className="mt-4 mx-auto text-left">
-             Dr. Sandeep Kumar has done his Ph.D. in Journalism and Mass Communication from Central University of South Bihar. His research focuses on New Media and Social Media, with a particular emphasis on the Psychological aspects of the different media platforms. He has proven track record of providing top-notch research and analysis in a timely manner and possess essential skills required for both qualitative and quantitative research such as data collection and analysis, Statistical Software (SPSS, R), report writing and Presentation, etc. His teaching area interest is Print production, Television production, Radio Production, and Media Research. 
-             </p></div>
-
+   
+    <div className='slidecontainer' style={{ margin: '40px' }}>
       
+     <h2 style={{fontWeight:'bold'}}>Media Center</h2>
+     
+     <div className="flexx" style={{ display: 'flex', alignItems: 'center' }}>
+      <div className="rectangle" style={{ width: '150px', height: '50px', backgroundColor: '#780000', overflow: 'hidden', color: 'white', fontSize: '35px', textAlign: 'left',paddingLeft:'25px',paddingBottom:'18px' }}>2024</div>
+      <div className="triangle" style={{ width: 0, height: 0, borderTop: '50px solid transparent', borderLeft: '50px solid #780000' ,paddingBottom:'1px'}}></div>
     </div>
-  </div>
-</div> */}
+     
+     <div className="autoslider">
+      <div className="slide-track">
+       
+      <div className="aslide" onClick={() => handleImageClick(Image1)}>
+  <img src={Image1} alt="Image 1" />
 </div>
-  )
+<div className="aslide" onClick={() => handleImageClick(Image2)}>
+  <img src={Image2} alt="Image 2" />
+</div>
+<div className="aslide" onClick={() => handleImageClick(Image3)}>
+  <img src={Image3} alt="Image 3" />
+</div>
+<div className="aslide" onClick={() => handleImageClick(Image4)}>
+  <img src={Image4} alt="Image 4" />
+</div>
+<div className="aslide" onClick={() => handleImageClick(Image5)}>
+  <img src={Image5} alt="Image 5" />
+</div>
+<div className="aslide" onClick={() => handleImageClick(Image6)}>
+  <img src={Image6} alt="Image 6" />
+</div>
+
+<div className="aslide" onClick={() => handleImageClick(Image1)}>
+  <img src={Image1} alt="Image 1" />
+</div>
+<div className="aslide" onClick={() => handleImageClick(Image2)}>
+  <img src={Image2} alt="Image 2" />
+</div>
+<div className="aslide" onClick={() => handleImageClick(Image3)}>
+  <img src={Image3} alt="Image 3" />
+</div>
+<div className="aslide" onClick={() => handleImageClick(Image4)}>
+  <img src={Image4} alt="Image 4" />
+</div>
+<div className="aslide" onClick={() => handleImageClick(Image5)}>
+  <img src={Image5} alt="Image 5" />
+</div>
+<div className="aslide" onClick={() => handleImageClick(Image6)}>
+  <img src={Image6} alt="Image 6" />
+</div>
+
+        {/* Add more aslides here */}
+      </div>
+    </div>
+            
+   {modalVisible && (
+        <div className="modal" onClick={closeModal}>
+          <div className="modal-content">
+            <span className="close" onClick={closeModal}>&times;</span>
+            <img src={modalImage} alt="Modal" />
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }
 
-export default Page24
+export default Page24;

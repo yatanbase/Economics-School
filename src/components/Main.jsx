@@ -11,6 +11,7 @@ import g1 from '../asset/slide1.jpeg';
 import g2 from '../asset/slide2.jpeg';
 import g3 from '../asset/slide3.jpeg';
 import Footer from './Footer';
+import MCLogo from '../asset/media_center_logo.png'
 import { useNavigate } from 'react-router-dom/dist';
 import { width } from '@fortawesome/free-solid-svg-icons/fa0';
 import Image1 from '../asset/home_slider_1.jpg';
@@ -342,7 +343,18 @@ Generating a cadre of trained human resources specialized in understanding and a
 
     </div>
 
+    <a href='/Page24' style={{width:'100%',position:'relative',right:'8px',textDecoration:'none'}}>
+    <div style={{ width: '100%', height: '70px',boxShadow:'0 4px 8px rgb(0,0,0,0.5)', padding:"10px 10px"  , backgroundColor:"#F0F0F0",margin:'10px', position:'relative',bottom:'5px' ,display:'flex'    }}>
+    <div style={{ backgroundColor:'#780000',borderRadius:'50%',width:'50px', height:'98%'}}>
+        <img src={MCLogo} style={{ width:'100%',height:'auto'}}></img>
+        
+        </div>
+    <div style={{marginLeft:'15px',marginTop:'10px'}}>    <h4 >Media Center</h4>
+    </div>
 
+
+    </div>
+    </a>
 
             <div style={{ width: '100%', height: '750px',boxShadow:'0 4px 8px rgb(0,0,0,0.5)', padding:"10px 10px"  , backgroundColor:"#F0F0F0" }}>
                 <h4 className='heading-news'>Important Links</h4>
