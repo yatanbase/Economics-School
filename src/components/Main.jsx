@@ -48,11 +48,17 @@ import Agri_banner from '../asset/Agriculture_Seminar/agriculture (1).jpg'
 import Data_workshop_banner from '../asset/data_workshop/workshop (2).jpg'
 import Justice_conference_banner from '../asset/justice_conference/conference (1).jpg'
 import Prospectus from '../asset/Patliputra_prospectus.pdf'
-
+import Advertisement from '../components/Admission_popup'
 
 import { useEffect } from 'react';
 
 const MainContent = () => {
+
+    const [showAd, setShowAd] = useState(true);         //for popup admission ad
+
+    const handleCloseAd = () => {
+      setShowAd(false);
+    };
     
     const latestNews = "Important announcement: Classes will be canceled tomorrow due to inclement weather.";
     const images = [
@@ -133,6 +139,7 @@ const MainContent = () => {
 
     return (
         <>
+        {showAd && <Advertisement onClose={handleCloseAd} />}
         
         {/* <Toolbar /> */}
       <Header />
