@@ -49,6 +49,7 @@ import Data_workshop_banner from '../asset/data_workshop/workshop (2).jpg'
 import Justice_conference_banner from '../asset/justice_conference/conference (1).jpg'
 import Prospectus from '../asset/Patliputra_prospectus.pdf'
 import Advertisement from '../components/Admission_popup'
+import Orientation from '../asset/news/pse orientation.docx'
 
 import { useEffect } from 'react';
 
@@ -333,6 +334,9 @@ Generating a cadre of trained human resources specialized in understanding and a
 </div>
 <div className="news" style={{marginBottom:'35px'}}>
 <a href={Prospectus} className='text-decoration-none' style={{ display: 'block',marginTop:'-20px', marginBottom: '20px' }}><img src={Gif} alt="newicon" height="8" width="27" style={{ marginRight: '10px', position:'relative'}} />PSE Prospectus 2024</a>
+</div>
+<div className="news" style={{marginBottom:'35px'}}>
+<a href={Orientation} className='text-decoration-none' style={{ display: 'block',marginTop:'-20px', marginBottom: '20px' }}><img src={Gif} alt="newicon" height="8" width="27" style={{ marginRight: '10px', position:'relative'}} />PSE Orientation 2024</a>
 </div>
         {/* <a href="/News4" className='text-decoration-none' style={{ display: 'block', marginBottom: '20px' }}>Open Mic on "Youth Icon of Bihar" </a>
         
