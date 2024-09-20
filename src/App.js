@@ -25,6 +25,10 @@ import Page21 from './page/Page21';
 import Page22 from './page/Page22';
 import Page23 from './page/Page23';
 import Page24 from './page/Page24';
+import Page25 from './page/Page25';
+import Page26 from './page/Page26';
+import Page27 from './page/Page27';
+
 import News1 from './News/News1';
 import News2 from './News/News2';
 import News3 from './News/News3';
@@ -66,6 +70,9 @@ function App() {
           <Route path="/page22" element={<Page22 />} />
           <Route path="/page23" element={<Page23 />} />
           <Route path="/page24" element={<Page24 />} />
+          <Route path="/page25" element={<Page25 />} />
+          <Route path="/page26" element={<Page26 />} />
+          <Route path="/page27" element={<Page27 />} />
 
           
           <Route path="/News1" element={<News1 />} />

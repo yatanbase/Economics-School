@@ -5,6 +5,8 @@ import Image3 from '../asset/Media_center (3).jpeg'
 import Image4 from '../asset/Media_center (4).jpeg'
 import Image5 from '../asset/Media_center (5).jpeg'
 import Image6 from '../asset/Media_center (6).jpeg'
+import Image7 from '../asset/media center/Induction/image (1).jpeg'
+import Image8 from '../asset/media center/Induction/image (2).jpeg'
 import './Page24.css';
 
 function Page24() {
@@ -32,6 +34,13 @@ function Page24() {
      
      <div className="autoslider">
       <div className="slide-track">
+
+      <div className="aslide" onClick={() => handleImageClick(Image1)}>
+  <img src={Image7} alt="Image 1" />
+</div>
+<div className="aslide" onClick={() => handleImageClick(Image1)}>
+  <img src={Image8} alt="Image 1" />
+</div>
        
       <div className="aslide" onClick={() => handleImageClick(Image1)}>
   <img src={Image1} alt="Image 1" />
@@ -52,6 +61,13 @@ function Page24() {
   <img src={Image6} alt="Image 6" />
 </div>
 
+
+<div className="aslide" onClick={() => handleImageClick(Image1)}>
+  <img src={Image7} alt="Image 1" />
+</div>
+<div className="aslide" onClick={() => handleImageClick(Image1)}>
+  <img src={Image8} alt="Image 1" />
+</div>
 <div className="aslide" onClick={() => handleImageClick(Image1)}>
   <img src={Image1} alt="Image 1" />
 </div>

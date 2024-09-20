@@ -50,6 +50,7 @@ import Justice_conference_banner from '../asset/justice_conference/conference (1
 import Prospectus from '../asset/Patliputra_prospectus.pdf'
 import Advertisement from '../components/Admission_popup'
 import Orientation from '../asset/news/pse orientation.docx'
+import Induction_img from '../asset/our gallery/induction/image (1).jpeg'
 
 import { useEffect } from 'react';
 
@@ -581,6 +582,14 @@ Generating a cadre of trained human resources specialized in understanding and a
 <div style={{ width: '100%', margin: '40px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
     <h2 style={{ width: '100%', textAlign: 'center',  borderRadius: '10px', textShadow: '0 3px 10px rgba(0, 0, 0, 0.7)' }}>Our Gallery</h2>
     <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', marginTop: '20px' }}>
+
+
+    <div style={{ width: 'calc(33.33% - 20px)', marginBottom: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+            <NavLink to={"/page25"}>
+                <img src={Induction_img} alt="Gallery Image 2" style={{ width: '100%', height: '300px', objectFit: 'cover', boxShadow: '0 0 25px 2px rgba(0, 0, 0, 0.4)', borderRadius: '20px' }} />
+            </NavLink>
+            <h4 style={{ textAlign: 'center' , fontFamily: 'Times New Roman, serif'}}>PSE Induction Programme 2024</h4>
+        </div>
 
         <div style={{ width: 'calc(33.33% - 20px)', marginBottom: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
             <NavLink to={"/page20"}>

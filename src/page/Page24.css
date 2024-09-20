@@ -94,7 +94,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-250px * 6)); /* Adjust calculation based on number of slides */
+      transform: translateX(calc(-250px * 8)); /* Adjust calculation based on number of slides */
     }
 }
 
