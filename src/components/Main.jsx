@@ -141,7 +141,7 @@ const MainContent = () => {
 
     return (
         <>
-        {showAd && <Advertisement onClose={handleCloseAd} />}
+        {/* {showAd && <Advertisement onClose={handleCloseAd} />} */}
         
         {/* <Toolbar /> */}
       <Header />
